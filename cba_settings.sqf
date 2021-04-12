@@ -472,6 +472,99 @@ force force CUP_Vehicles_PreventBarrelClip = true;
 force force CUP_staticWeapons_allowMovement = false;
 force force CUP_staticWeapons_allowRotation = false;
 
+// DUI - Squad Radar - Indicators
+force force diwako_dui_indicators_crew_range_enabled = false;
+force force diwako_dui_indicators_fov_scale = false;
+force force diwako_dui_indicators_icon_buddy = true;
+force force diwako_dui_indicators_icon_leader = true;
+force force diwako_dui_indicators_icon_medic = true;
+force force diwako_dui_indicators_range = 20;
+force force diwako_dui_indicators_range_crew = 300;
+force force diwako_dui_indicators_range_scale = false;
+force force diwako_dui_indicators_show = true;
+force force diwako_dui_indicators_size = 1;
+force force diwako_dui_indicators_style = "standard";
+force force diwako_dui_indicators_useACENametagsRange = true;
+
+// DUI - Squad Radar - Main
+force force diwako_dui_ace_hide_interaction = true;
+force force diwako_dui_colors = "standard";
+force force diwako_dui_font = "RobotoCondensed";
+force force diwako_dui_icon_style = "standard";
+force force diwako_dui_main_hide_ui_by_default = false;
+force force diwako_dui_main_squadBlue = [0,0,1,1];
+force force diwako_dui_main_squadGreen = [0,1,0,1];
+force force diwako_dui_main_squadMain = [1,1,1,1];
+force force diwako_dui_main_squadRed = [1,0,0,1];
+force force diwako_dui_main_squadYellow = [1,1,0,1];
+force force diwako_dui_main_trackingColor = [0.93,0.26,0.93,1];
+force force diwako_dui_reset_ui_pos = false;
+
+// DUI - Squad Radar - Nametags
+force force diwako_dui_nametags_deadColor = [0.2,0.2,0.2,1];
+force force diwako_dui_nametags_deadRenderDistance = 3.5;
+force force diwako_dui_nametags_drawRank = true;
+force force diwako_dui_nametags_enabled = true;
+force force diwako_dui_nametags_enableFOVBoost = true;
+force force diwako_dui_nametags_enableOcclusion = true;
+force force diwako_dui_nametags_fadeInTime = 0.05;
+force force diwako_dui_nametags_fadeOutTime = 0.5;
+force force diwako_dui_nametags_fontGroup = "RobotoCondensedLight";
+force force diwako_dui_nametags_fontGroupNameSize = 8;
+force force diwako_dui_nametags_fontName = "RobotoCondensedBold";
+force force diwako_dui_nametags_fontNameSize = 10;
+force force diwako_dui_nametags_groupColor = [1,1,1,1];
+force force diwako_dui_nametags_groupFontShadow = 1;
+force force diwako_dui_nametags_groupNameOtherGroupColor = [0.6,0.85,0.6,1];
+force force diwako_dui_nametags_nameFontShadow = 1;
+force force diwako_dui_nametags_nameOtherGroupColor = [0.2,1,0,1];
+force force diwako_dui_nametags_renderDistance = 40;
+force force diwako_dui_nametags_showUnconAsDead = true;
+force force diwako_dui_nametags_useSideIsFriendly = true;
+
+// DUI - Squad Radar - Radar
+force force diwako_dui_compass_hide_alone_group = false;
+force force diwako_dui_compass_hide_blip_alone_group = false;
+force force diwako_dui_compass_icon_scale = 1;
+force force diwako_dui_compass_opacity = 1;
+force force diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\standard\compass_limited.paa","\z\diwako_dui\addons\radar\UI\compass_styles\standard\compass.paa"];
+force force diwako_dui_compassRange = 35;
+force force diwako_dui_compassRefreshrate = 0;
+force force diwako_dui_dir_showMildot = false;
+force force diwako_dui_dir_size = 1.25;
+force force diwako_dui_distanceWarning = 3;
+force force diwako_dui_enable_compass = false;
+force force diwako_dui_enable_compass_dir = 0;
+force force diwako_dui_enable_occlusion = false;
+force force diwako_dui_enable_occlusion_cone = 360;
+force force diwako_dui_hudScaling = 1.33333;
+force force diwako_dui_namelist = true;
+force force diwako_dui_namelist_bg = 0;
+force force diwako_dui_namelist_only_buddy_icon = false;
+force force diwako_dui_namelist_size = 1.5396;
+force force diwako_dui_namelist_text_shadow = 2;
+force force diwako_dui_namelist_width = 215;
+force force diwako_dui_radar_ace_finger = true;
+force force diwako_dui_radar_ace_medic = true;
+force force diwako_dui_radar_compassRangeCrew = 500;
+force force diwako_dui_radar_dir_padding = 25;
+force force diwako_dui_radar_group_by_vehicle = false;
+force force diwako_dui_radar_icon_opacity = 1;
+force force diwako_dui_radar_icon_opacity_no_player = true;
+force force diwako_dui_radar_icon_scale_crew = 6;
+force force diwako_dui_radar_leadingZeroes = false;
+force force diwako_dui_radar_namelist_hideWhenLeader = false;
+force force diwako_dui_radar_namelist_vertical_spacing = 0.75;
+force force diwako_dui_radar_occlusion_fade_in_time = 1;
+force force diwako_dui_radar_occlusion_fade_time = 10;
+force force diwako_dui_radar_pointer_color = [1,0.5,0,1];
+force force diwako_dui_radar_pointer_style = "standard";
+force force diwako_dui_radar_show_cardinal_points = false;
+force force diwako_dui_radar_sortType = "none";
+force force diwako_dui_radar_sqlFirst = false;
+force force diwako_dui_radar_vehicleCompassEnabled = false;
+force force diwako_dui_use_layout_editor = false;
+
 // dzn Extended Jamming
 force force dzn_EJAM_dud_ChanceSettings = 60;
 force force dzn_EJAM_fail_to_eject_ChanceSettings = 20;
