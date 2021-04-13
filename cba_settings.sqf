@@ -156,7 +156,7 @@ force force ace_repair_fullRepairRequiredItems = ["ToolKit"];
 force force ace_repair_miscRepairRequiredItems = ["ToolKit"];
 force force ace_repair_repairDamageThreshold = 0.6;
 force force ace_repair_repairDamageThreshold_engineer = 0.4;
-force force ace_repair_wheelRepairRequiredItems = ["ToolKit"];
+force force ace_repair_wheelRepairRequiredItems = [];
 
 // ACE Magazine Repack
 force force ace_magazinerepack_timePerAmmo = 1.5;
@@ -168,7 +168,7 @@ force force ace_map_BFT_Enabled = false;
 force force ace_map_BFT_HideAiGroups = false;
 force force ace_map_BFT_Interval = 1;
 force force ace_map_BFT_ShowPlayerNames = false;
-force force ace_map_DefaultChannel = 0;
+force force ace_map_DefaultChannel = 1;
 force force ace_map_mapGlow = true;
 force force ace_map_mapIllumination = true;
 force force ace_map_mapLimitZoom = false;
@@ -220,7 +220,7 @@ force force ace_medical_painCoefficient = 1;
 force force ace_medical_painUnconsciousChance = 0.1;
 force force ace_medical_playerDamageThreshold = 1;
 force force ace_medical_spontaneousWakeUpChance = 0.3;
-force force ace_medical_spontaneousWakeUpEpinephrineBoost = 2.5;
+force force ace_medical_spontaneousWakeUpEpinephrineBoost = 3;
 force force ace_medical_statemachine_AIUnconsciousness = false;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force force ace_medical_statemachine_cardiacArrestTime = 300;
@@ -280,11 +280,11 @@ force force ace_nametags_showVehicleCrewInfo = true;
 force force ace_nametags_tagSize = 2;
 
 // ACE Nightvision
-force force ace_nightvision_aimDownSightsBlur = 0.25;
+force force ace_nightvision_aimDownSightsBlur = 0.4;
 force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 0.25;
-force force ace_nightvision_fogScaling = 0.25;
-force force ace_nightvision_noiseScaling = 0.25;
+force force ace_nightvision_effectScaling = 0.4;
+force force ace_nightvision_fogScaling = 0.4;
+force force ace_nightvision_noiseScaling = 0.4;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
