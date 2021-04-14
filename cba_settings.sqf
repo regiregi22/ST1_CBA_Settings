@@ -452,7 +452,7 @@ force force ace_zeus_zeusBird = false;
 
 // CBA UI
 cba_diagnostic_ConsoleIndentType = -1;
-cba_ui_notifyLifetime = 4;
+cba_ui_notifyLifetime = 10;
 cba_ui_StorePasswords = 1;
 
 // CBA Weapons
@@ -505,7 +505,7 @@ force force diwako_dui_reset_ui_pos = false;
 force force diwako_dui_nametags_deadColor = [0.2,0.2,0.2,1];
 force force diwako_dui_nametags_deadRenderDistance = 3.5;
 force force diwako_dui_nametags_drawRank = true;
-force force diwako_dui_nametags_enabled = true;
+force force diwako_dui_nametags_enabled = false;
 force force diwako_dui_nametags_enableFOVBoost = true;
 force force diwako_dui_nametags_enableOcclusion = true;
 force force diwako_dui_nametags_fadeInTime = 0.05;
@@ -543,7 +543,7 @@ force force diwako_dui_hudScaling = 1.33333;
 force force diwako_dui_namelist = true;
 force force diwako_dui_namelist_bg = 0;
 force force diwako_dui_namelist_only_buddy_icon = false;
-force force diwako_dui_namelist_size = 0.914601;
+force force diwako_dui_namelist_size = 1.0396;
 force force diwako_dui_namelist_text_shadow = 2;
 force force diwako_dui_namelist_width = 215;
 force force diwako_dui_radar_ace_finger = true;
@@ -563,7 +563,7 @@ force force diwako_dui_radar_occlusion_fade_time = 10;
 force force diwako_dui_radar_pointer_color = [1,0.5,0,1];
 force force diwako_dui_radar_pointer_style = "standard";
 force force diwako_dui_radar_show_cardinal_points = false;
-force force diwako_dui_radar_showSpeaking = true;
+force force diwako_dui_radar_showSpeaking = false;
 force force diwako_dui_radar_showSpeaking_radioOnly = false;
 force force diwako_dui_radar_showSpeaking_replaceIcon = true;
 force force diwako_dui_radar_sortType = "none";
@@ -580,7 +580,7 @@ force force dzn_EJAM_feed_failure_ChanceSettings = 60;
 force force dzn_EJAM_Force = true;
 force force dzn_EJAM_ForceOverallChance = true;
 force force dzn_EJAM_MappingSettings = "[""arifle_MX_F"",0.05,45,10,45,0,0]";
-force force dzn_EJAM_OverallChanceSetting = 1;
+force force dzn_EJAM_OverallChanceSetting = 0.2;
 force force dzn_EJAM_SubsonicJamEffectSetting = "0.05";
 force force dzn_EJAM_SubsonicMagazinesSettings = """cup_30rnd_subsonic_545x39_ak_m"",""cup_20rnd_subsonic_545x39_aksu_m"",""cup_30rnd_subsonic_545x39_ak74m_m"",""cup_30rnd_subsonic_545x39_ak74_plum_m"",""cup_30rnd_subsonic_762x39_ak47_m"",""cup_20rnd_subsonic_762x39_amd63_m"",""cup_30rnd_subsonic_762x39_ak47_bakelite_m"",""cup_30rnd_subsonic_762x39_ak103_bakelite_m"",""cup_30rnd_subsonic_762x39_akm_bakelite_desert_m"",""cup_30rnd_subsonic_545x39_fort224_m"",""rhs_30rnd_545x39_7u1_ak"",""rhs_45rnd_545x39_7u1_ak"",""rhs_30rnd_762x39mm_u"",""rhs_30rnd_762x39mm_bakelite_u"",""rhs_30rnd_762x39mm_polymer_u"",""hlc_30rnd_545x39_s_ak"",""hlc_30rnd_545x39_s_ak_plum"",""hlc_30rnd_545x39_s_ak_black"",""hlc_20rnd_762x51_s_fal"",""hlc_10rnd_762x51_s_fal"",""hlc_20rnd_762x51_s_g3""";
 
