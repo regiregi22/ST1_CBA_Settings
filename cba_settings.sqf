@@ -218,8 +218,8 @@ force force ace_medical_ivFlowRate = 1;
 force force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 1;
 force force ace_medical_painUnconsciousChance = 0.1;
-force force ace_medical_playerDamageThreshold = 1;
-force force ace_medical_spontaneousWakeUpChance = 0.3;
+force force ace_medical_playerDamageThreshold = 1.5;
+force force ace_medical_spontaneousWakeUpChance = 0.5;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 3;
 force force ace_medical_statemachine_AIUnconsciousness = false;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
@@ -280,11 +280,11 @@ force force ace_nametags_showVehicleCrewInfo = true;
 force force ace_nametags_tagSize = 2;
 
 // ACE Nightvision
-force force ace_nightvision_aimDownSightsBlur = 0.4;
+force force ace_nightvision_aimDownSightsBlur = 0.5;
 force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 0.4;
-force force ace_nightvision_fogScaling = 0.4;
-force force ace_nightvision_noiseScaling = 0.4;
+force force ace_nightvision_effectScaling = 0.5;
+force force ace_nightvision_fogScaling = 0.5;
+force force ace_nightvision_noiseScaling = 0.5;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
@@ -360,7 +360,7 @@ force force ace_trenches_smallEnvelopeRemoveDuration = 12;
 force force ace_fastroping_requireRopeItems = false;
 force force ace_gunbag_swapGunbagEnabled = true;
 force force ace_hitreactions_minDamageToTrigger = 0.1;
-force force ace_inventory_inventoryDisplaySize = 0;
+force force ace_inventory_inventoryDisplaySize = 1;
 force force ace_laser_dispersionCount = 2;
 force force ace_microdagr_mapDataAvailable = 2;
 force force ace_microdagr_waypointPrecision = 3;
@@ -450,6 +450,49 @@ force force ace_zeus_revealMines = 0;
 force force ace_zeus_zeusAscension = false;
 force force ace_zeus_zeusBird = false;
 
+// ACRE2
+force force acre_sys_core_automaticAntennaDirection = false;
+force force acre_sys_core_defaultRadioVolume = 0.8;
+force force acre_sys_core_fullDuplex = false;
+force force acre_sys_core_godVolume = 1;
+force force acre_sys_core_ignoreAntennaDirection = false;
+force force acre_sys_core_interference = true;
+force force acre_sys_core_postmixGlobalVolume = 1;
+force force acre_sys_core_premixGlobalVolume = 1;
+force force acre_sys_core_revealToAI = 1;
+force force acre_sys_core_spectatorVolume = 1;
+force force acre_sys_core_terrainLoss = 1;
+force force acre_sys_core_ts3ChannelName = "ACRE2";
+force force acre_sys_core_ts3ChannelPassword = "123";
+force force acre_sys_core_ts3ChannelSwitch = true;
+force force acre_sys_core_unmuteClients = true;
+force force acre_sys_signal_signalModel = 2;
+
+// ACRE2 UI
+force force acre_sys_godmode_rxNotification = true;
+force force acre_sys_godmode_rxNotificationColor = [0.8,0.8,0.8,1];
+force force acre_sys_godmode_txNotification = true;
+force force acre_sys_godmode_txNotificationCurrentChatColor = [0.8,0.8,0.8,1];
+force force acre_sys_godmode_txNotificationGroup1Color = [0.8,0.8,0.8,1];
+force force acre_sys_godmode_txNotificationGroup2Color = [0.8,0.8,0.8,1];
+force force acre_sys_godmode_txNotificationGroup3Color = [0.8,0.8,0.8,1];
+force force acre_sys_gui_volumeColorScale = [[1,1,0,0.5],[1,0.83,0,0.5],[1,0.65,0,0.5],[1,0.44,0,0.5],[1,0,0,0.5]];
+force force acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];
+force force acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
+force force acre_sys_list_HintBackgroundColor = [0,0,0,0.8];
+force force acre_sys_list_HintTextFont = "RobotoCondensed";
+force force acre_sys_list_LanguageColor = [1,0.29,0.16,1];
+force force acre_sys_list_PTT1Color = [1,0.8,0,1];
+force force acre_sys_list_PTT2Color = [1,0.8,0,1];
+force force acre_sys_list_PTT3Color = [1,0.8,0,1];
+force force acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1];
+force force acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1];
+
+// ACRE2 Zeus
+force force acre_sys_zeus_zeusCanSpectate = false;
+force force acre_sys_zeus_zeusCommunicateViaCamera = false;
+force force acre_sys_zeus_zeusDefaultVoiceSource = false;
+
 // CBA UI
 cba_diagnostic_ConsoleIndentType = -1;
 cba_ui_notifyLifetime = 10;
@@ -525,12 +568,12 @@ force force diwako_dui_nametags_useLIS = true;
 force force diwako_dui_nametags_useSideIsFriendly = true;
 
 // DUI - Squad Radar - Radar
-force force diwako_dui_compass_hide_alone_group = false;
+force force diwako_dui_compass_hide_alone_group = true;
 force force diwako_dui_compass_hide_blip_alone_group = false;
 force force diwako_dui_compass_icon_scale = 1;
 force force diwako_dui_compass_opacity = 1;
 force force diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\standard\compass_limited.paa","\z\diwako_dui\addons\radar\UI\compass_styles\standard\compass.paa"];
-force force diwako_dui_compassRange = 35;
+force force diwako_dui_compassRange = 25;
 force force diwako_dui_compassRefreshrate = 0;
 force force diwako_dui_dir_showMildot = false;
 force force diwako_dui_dir_size = 1.25;
@@ -580,7 +623,7 @@ force force dzn_EJAM_feed_failure_ChanceSettings = 60;
 force force dzn_EJAM_Force = true;
 force force dzn_EJAM_ForceOverallChance = true;
 force force dzn_EJAM_MappingSettings = "[""arifle_MX_F"",0.05,45,10,45,0,0]";
-force force dzn_EJAM_OverallChanceSetting = 0.2;
+force force dzn_EJAM_OverallChanceSetting = 0.05;
 force force dzn_EJAM_SubsonicJamEffectSetting = "0.05";
 force force dzn_EJAM_SubsonicMagazinesSettings = """cup_30rnd_subsonic_545x39_ak_m"",""cup_20rnd_subsonic_545x39_aksu_m"",""cup_30rnd_subsonic_545x39_ak74m_m"",""cup_30rnd_subsonic_545x39_ak74_plum_m"",""cup_30rnd_subsonic_762x39_ak47_m"",""cup_20rnd_subsonic_762x39_amd63_m"",""cup_30rnd_subsonic_762x39_ak47_bakelite_m"",""cup_30rnd_subsonic_762x39_ak103_bakelite_m"",""cup_30rnd_subsonic_762x39_akm_bakelite_desert_m"",""cup_30rnd_subsonic_545x39_fort224_m"",""rhs_30rnd_545x39_7u1_ak"",""rhs_45rnd_545x39_7u1_ak"",""rhs_30rnd_762x39mm_u"",""rhs_30rnd_762x39mm_bakelite_u"",""rhs_30rnd_762x39mm_polymer_u"",""hlc_30rnd_545x39_s_ak"",""hlc_30rnd_545x39_s_ak_plum"",""hlc_30rnd_545x39_s_ak_black"",""hlc_20rnd_762x51_s_fal"",""hlc_10rnd_762x51_s_fal"",""hlc_20rnd_762x51_s_g3""";
 
@@ -639,15 +682,47 @@ force force kat_circulation_useLocation_AED = 0;
 
 // KAT - ADV Medical: Misc
 force force kat_misc_enable = true;	
-						
-// Task Force Arrowhead Radio
-force force TF_default_radioVolume = 9;
-force force TF_give_microdagr_to_soldier = true;
-force force TF_give_personal_radio_to_regular_soldier = true;
-force force TF_no_auto_long_range_radio = true;
-force force TF_same_dd_frequencies_for_side = false;
-force force TF_same_lr_frequencies_for_side = false;
-force force TF_same_sw_frequencies_for_side = false;
+
+// LAMBS Danger
+force force lambs_danger_cqbRange = 60;
+force force lambs_danger_disableAIAutonomousManoeuvres = true;
+force force lambs_danger_disableAIDeployStaticWeapons = false;
+force force lambs_danger_disableAIFindStaticWeapons = false;
+force force lambs_danger_disableAIHideFromTanksAndAircraft = true;
+force force lambs_danger_disableAIPlayerGroup = false;
+force force lambs_danger_disableAIPlayerGroupReaction = false;
+force force lambs_danger_disableAutonomousFlares = false;
+force force lambs_danger_panicChance = 0;
+
+// LAMBS Danger Eventhandlers
+force force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
+force force lambs_eventhandlers_ExplosionReactionTime = 9;
+
+// LAMBS Danger WP
+force force lambs_wp_autoAddArtillery = false;
+
+// LAMBS Main
+force force lambs_main_combatShareRange = 200;
+force force lambs_main_debug_Drawing = false;
+force force lambs_main_debug_FSM = false;
+force force lambs_main_debug_FSM_civ = false;
+force force lambs_main_debug_functions = false;
+force force lambs_main_debug_RenderExpectedDestination = false;
+force force lambs_main_disableAICallouts = false;
+force force lambs_main_disableAIDodge = false;
+force force lambs_main_disableAIFleeing = false;
+force force lambs_main_disableAIGestures = false;
+force force lambs_main_disablePlayerGroupSuppression = false;
+force force lambs_main_indoorMove = 0.1;
+force force lambs_main_maxRevealValue = 1;
+force force lambs_main_minFriendlySuppressionDistance = 5;
+force force lambs_main_minSuppressionRange = 25;
+force force lambs_main_radioBackpack = 2000;
+force force lambs_main_radioDisabled = false;
+force force lambs_main_radioEast = 500;
+force force lambs_main_radioGuer = 500;
+force force lambs_main_radioShout = 100;
+force force lambs_main_radioWest = 500;
 
 // MCC Classes
 force force MCC_convoyHVT = "[[""None"",""0""],[""B.Officer"",""B_officer_F""],[""B. Pilot"",""B_Helipilot_F""],[""O. Officer"",""O_officer_F""],[""O. Pilot"",""O_helipilot_F""],[""I.Commander"",""I_officer_F""],[""Citizen"",""C_man_polo_1_F""],[""C.Pilot"",""C_man_pilot_F""],[""Orestes"",""C_Orestes""],[""Nikos"",""C_Nikos""],[""Hunter"",""C_man_hunter_1_F""],[""Kerry"",""I_G_Story_Protagonist_F""]]";
@@ -776,6 +851,99 @@ force force MCC_showActionKey = true;
 force force MCC_suppressionOn = false;
 force force MCC_UIModuleTickets = false;
 
+// Task Force Arrowhead Radio
+force force TF_default_radioVolume = 9;
+force force TF_give_microdagr_to_soldier = true;
+force force TF_give_personal_radio_to_regular_soldier = true;
+force force TF_no_auto_long_range_radio = true;
+force force TF_same_dd_frequencies_for_side = false;
+force force TF_same_lr_frequencies_for_side = false;
+force force TF_same_sw_frequencies_for_side = false;
+
+// VCOM AI East Skill
+force force Vcm_AISkills_East_AimingAccuracy = 0.1;
+force force Vcm_AISkills_East_aimingShake = 0.15;
+force force Vcm_AISkills_East_aimingSpeed = 0.1;
+force force Vcm_AISkills_East_commanding = 0.85;
+force force Vcm_AISkills_East_courage = 0.5;
+force force Vcm_AISkills_East_general = 0.1;
+force force Vcm_AISkills_East_reloadSpeed = 1;
+force force Vcm_AISkills_East_spotDistance = 0.85;
+force force Vcm_AISkills_East_spotTime = 0.85;
+
+// VCOM AI General Skill
+force force Vcm_AISkills_General_AimingAccuracy = 0.1;
+force force Vcm_AISkills_General_aimingShake = 0.15;
+force force Vcm_AISkills_General_aimingSpeed = 0.1;
+force force Vcm_AISkills_General_commanding = 0.85;
+force force Vcm_AISkills_General_courage = 0.5;
+force force Vcm_AISkills_General_general = 0.1;
+force force Vcm_AISkills_General_reloadSpeed = 1;
+force force Vcm_AISkills_General_spotDistance = 0.85;
+force force Vcm_AISkills_General_spotTime = 0.85;
+
+// VCOM AI Resistance Skill
+force force Vcm_AISkills_Resistance_AimingAccuracy = 0.1;
+force force Vcm_AISkills_Resistance_aimingShake = 0.15;
+force force Vcm_AISkills_Resistance_aimingSpeed = 0.1;
+force force Vcm_AISkills_Resistance_commanding = 0.85;
+force force Vcm_AISkills_Resistance_courage = 0.5;
+force force Vcm_AISkills_Resistance_general = 0.1;
+force force Vcm_AISkills_Resistance_reloadSpeed = 1;
+force force Vcm_AISkills_Resistance_spotDistance = 0.85;
+force force Vcm_AISkills_Resistance_spotTime = 0.85;
+
+// VCOM AI West Skill
+force force Vcm_AISkills_West_AimingAccuracy = 0.1;
+force force Vcm_AISkills_West_aimingShake = 0.15;
+force force Vcm_AISkills_West_aimingSpeed = 0.1;
+force force Vcm_AISkills_West_commanding = 0.85;
+force force Vcm_AISkills_West_courage = 0.5;
+force force Vcm_AISkills_West_general = 0.1;
+force force Vcm_AISkills_West_reloadSpeed = 1;
+force force Vcm_AISkills_West_spotDistance = 0.85;
+force force Vcm_AISkills_West_spotTime = 0.85;
+
+// VCOM SETTINGS
+force force VCM_ActivateAI = true;
+force force VCM_ADVANCEDMOVEMENT = true;
+force force VCM_AIDISTANCEVEHPATH = 100;
+force force VCM_AIMagLimit = 5;
+force force VCM_AISkills_General_EM = true;
+force force VCM_AISkills_General_EM_CHN = 10;
+force force VCM_AISkills_General_EM_CLDWN = 10;
+force force Vcm_AISkills_SideSpecific = false;
+force force VCM_AISNIPERS = true;
+force force VCM_AISUPPRESS = true;
+force force VCM_ARTYDELAY = 30;
+force force VCM_ARTYENABLE = true;
+force force VCM_ARTYSIDES = [WEST,EAST,GUER];
+force force VCM_CARGOCHNG = true;
+force force VCM_ClassSteal = true;
+force force VCM_Debug = false;
+force force VCM_DISEMBARKRANGE = 200;
+force force Vcm_DrivingActivated = false;
+force force VCM_ForceSpeed = true;
+force force VCM_FRMCHANGE = true;
+force force Vcm_GrenadeChance = 10;
+force force VCM_HEARINGDISTANCE = 1200;
+force force VCM_MEDICALACTIVE = true;
+force force VCM_MINECHANCE = 75;
+force force VCM_MINEENABLED = false;
+force force Vcm_PlayerAISkills = true;
+force force VCM_RAGDOLL = true;
+force force VCM_RAGDOLLCHC = 100;
+force force VCM_SIDEENABLED = [WEST,EAST,GUER];
+force force VCM_SKILLCHANGE = true;
+force force Vcm_SmokeGrenadeChance = 10;
+force force VCM_STATICARMT = 300;
+force force VCM_StealVeh = false;
+force force VCM_SUPDIST = 200;
+force force VCM_TURRETUNLOAD = true;
+force force VCM_USECBASETTINGS = true;
+force force VCM_WARNDELAY = 30;
+force force VCM_WARNDIST = 1000;
+
 // *Vindicta
 force force vin_aiskill_aimingAccuracy = 0.5;
 force force vin_aiskill_aimingShake = 0.5;
@@ -796,46 +964,3 @@ force force vin_server_gameSpeed = 1;
 force force vin_server_suspendWhenEmpty = true;
 force force vin_spawnDist_garrisonToAI = 1000;
 force force vin_spawnDist_garrisonToPlayer = 2000;
-
-// ACRE2
-force force acre_sys_core_automaticAntennaDirection = false;
-force force acre_sys_core_defaultRadioVolume = 0.8;
-force force acre_sys_core_fullDuplex = false;
-force force acre_sys_core_godVolume = 1;
-force force acre_sys_core_ignoreAntennaDirection = false;
-force force acre_sys_core_interference = true;
-force force acre_sys_core_postmixGlobalVolume = 1;
-force force acre_sys_core_premixGlobalVolume = 1;
-force force acre_sys_core_revealToAI = 1;
-force force acre_sys_core_spectatorVolume = 1;
-force force acre_sys_core_terrainLoss = 1;
-force force acre_sys_core_ts3ChannelName = "ACRE2";
-force force acre_sys_core_ts3ChannelPassword = "123";
-force force acre_sys_core_ts3ChannelSwitch = true;
-force force acre_sys_core_unmuteClients = true;
-force force acre_sys_signal_signalModel = 2;
-
-// ACRE2 UI
-force force acre_sys_godmode_rxNotification = true;
-force force acre_sys_godmode_rxNotificationColor = [0.8,0.8,0.8,1];
-force force acre_sys_godmode_txNotification = true;
-force force acre_sys_godmode_txNotificationCurrentChatColor = [0.8,0.8,0.8,1];
-force force acre_sys_godmode_txNotificationGroup1Color = [0.8,0.8,0.8,1];
-force force acre_sys_godmode_txNotificationGroup2Color = [0.8,0.8,0.8,1];
-force force acre_sys_godmode_txNotificationGroup3Color = [0.8,0.8,0.8,1];
-force force acre_sys_gui_volumeColorScale = [[1,1,0,0.5],[1,0.83,0,0.5],[1,0.65,0,0.5],[1,0.44,0,0.5],[1,0,0,0.5]];
-force force acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];
-force force acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
-force force acre_sys_list_HintBackgroundColor = [0,0,0,0.8];
-force force acre_sys_list_HintTextFont = "RobotoCondensed";
-force force acre_sys_list_LanguageColor = [1,0.29,0.16,1];
-force force acre_sys_list_PTT1Color = [1,0.8,0,1];
-force force acre_sys_list_PTT2Color = [1,0.8,0,1];
-force force acre_sys_list_PTT3Color = [1,0.8,0,1];
-force force acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1];
-force force acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1];
-
-// ACRE2 Zeus
-force force acre_sys_zeus_zeusCanSpectate = false;
-force force acre_sys_zeus_zeusCommunicateViaCamera = false;
-force force acre_sys_zeus_zeusDefaultVoiceSource = false;
