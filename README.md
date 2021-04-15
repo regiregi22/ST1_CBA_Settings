@@ -1,7 +1,7 @@
 # ST1-cba_settings.sqf
 Settings usados por la **ST1** para las misiones cooperativas en Arma 3
 
-Addons set (**09-04-2021**):
+Addons set (**15-04-2021**):
 
 **ace** 3.13.6 10 Mar @ 4:54pm  
 **ACRE2** 2.8.0.1037 17 Sep, 2020 @ 6:17pm  
