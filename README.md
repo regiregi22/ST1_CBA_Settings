@@ -13,6 +13,7 @@ Addons set (**15-04-2021**):
 **KAT - Advanced Medical REWRITE** 19 Dec, 2020 @ 11:36pm  
 **LAMBS_Danger.fsm** 2.5.0 12 Apr @ 7:51pm  
 **MCC Sandbox 4** R34 19 Dec, 2020 @ 9:34pm  
+**Project injury Reaction (PiR)** 17 Apr @ 9:13pm  
 **task_force_radio** 17 Jun, 2019 @ 5:30pm  
 **Vcom AI V3.4.0** 17 Aug, 2020 @ 3:44am  
 **Vindicta (Alpha)** 11 Nov, 2020 @ 9:32pm  
