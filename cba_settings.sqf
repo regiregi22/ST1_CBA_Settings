@@ -852,7 +852,7 @@ force force MCC_suppressionOn = false;
 force force MCC_UIModuleTickets = false;
 
 // Project injury Reaction
-force force PiR_anim_on = true;
+force force PiR_anim_on = false;
 force force PiR_animAI_on = true;
 force force PiR_animcontusiondelay_on = 0.3;
 force force PiR_animhitdelay_on = 0.8;
@@ -912,15 +912,15 @@ force force PiR_heal_on = true;
 force force PiR_helmet_K = 3;
 force force PiR_helmet_K0 = 0;
 force force PiR_helmet_on = true;
-force force PiR_IFAK_on = true;
+force force PiR_IFAK_on = false;
 force force PiR_injuriAI_on = true;
-force force PiR_injuriplayer_on = true;
+force force PiR_injuriplayer_on = false;
 force force PiR_instantdeathAI_on = true;
 force force PiR_instantdeathplayer_on = false;
 force force PiR_repeatheal_on = true;
 force force PiR_resistance_on = true;
 force force PiR_smoke_on = true;
-force force PiR_stopblood_on = false;
+force force PiR_stopblood_on = true;
 force force PiR_stopbloodAI_on = false;
 force force PiR_sway_on = 0.8;
 force force PiR_uncondition_crawl_K = 6;
