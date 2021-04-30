@@ -1,4 +1,4 @@
-ST1 CBA Settings  
+#**ST1 CBA Settings**  
 Settings usados por la **ST1** para las misiones cooperativas en Arma 3
 
 Addons (**20-04-2021**):
