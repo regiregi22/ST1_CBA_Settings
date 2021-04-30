@@ -8,7 +8,7 @@ Addons (**20-04-2021**):
 **CBA_A3** v3.15.3.210310 10 Mar @ 4:51pm  
 **CUP** 9 Oct, 2020 @ 1:28pm  
 **DUI - Squad Radar** 12 Oct, 2020 @ 10:44am  
-**dzn Extended Jamming** 2.7.1 24 Apr, 2020 @ 10:45pm  
+**dzn Extended Jamming** 2.7.2 29 Apr, 2021 @ 14:55pm  
 **GreenMag** 6 Jan @ 11:28pm  
 **KAT - Advanced Medical REWRITE** 19 Dec, 2020 @ 11:36pm  
 **LAMBS_Danger.fsm** 2.5.0 12 Apr @ 7:51pm  
