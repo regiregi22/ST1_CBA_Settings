@@ -58,9 +58,9 @@ force force ace_common_settingProgressBarLocation = 0;
 force force ace_noradio_enabled = true;
 force force ace_parachute_hideAltimeter = true;
 
-// ACE Cook off
+// ACE Cook off (Vehicles don't explode if ace_cookoff_enable set to 2)
 force force ace_cookoff_ammoCookoffDuration = 1;
-force force ace_cookoff_enable = 2;
+force force ace_cookoff_enable = 0;
 force force ace_cookoff_enableAmmobox = true;
 force force ace_cookoff_enableAmmoCookoff = true;
 force force ace_cookoff_probabilityCoef = 1;
